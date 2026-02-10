@@ -6,6 +6,7 @@ interface WeatherInterface {
   tempC: string;
   tempF: string;
   friends: string[];
+  feelslike: string;
 }
 
 export const resolvers = {

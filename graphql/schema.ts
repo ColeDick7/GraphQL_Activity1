@@ -7,6 +7,7 @@ export const typeDefs = gql`
     tempC: String!
     tempF: String!
     friends: [String]!
+    feelslike: String
   }
 
   input LocationWeatherInput {
@@ -15,6 +16,7 @@ export const typeDefs = gql`
     tempC: String
     tempF: String
     friends: [String]
+    feelslike: String
   }
 
   type Query {

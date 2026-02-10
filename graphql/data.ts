@@ -5,6 +5,7 @@ export const db = [
     tempC: "25C",
     tempF: "75F",
     friends: ["96814", "96826"],
+    feelslike: "warm",
   },
   {
     zip: "96826",
